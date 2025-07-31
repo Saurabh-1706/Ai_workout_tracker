@@ -162,7 +162,7 @@ export default function WorkoutRecord() {
       <SafeAreaView className="flex-1 bg-gray-50">
         <View className="flex-1 justify-center items-center">
           <ActivityIndicator size="large" color="#3B82F6" />
-          <Text className="text-gray-600 mt-4">Loadnig workout...</Text>
+          <Text className="text-gray-600 mt-4">Loading workout...</Text>
         </View>
       </SafeAreaView>
     );
@@ -174,7 +174,7 @@ export default function WorkoutRecord() {
         <View className="flex-1 justify-center items-center">
           <Ionicons name="alert-circle-outline" size={64} color="#EF4444" />
           <Text className="text-xl font-semibold text-gray-900 mt-4">
-            Workout Not Found
+            Not Found
           </Text>
           <Text className="text-gray-600 text-center mt-2">
             This workout record could not be found.

@@ -35,12 +35,14 @@ interface ExerciseCardProps {
     item: Exercise;
     onPress: () => void;
     showChevron?: boolean;
+    showDifficulty?: boolean;
 }
 
 export default function ExerciseCard({
     item,
     onPress,
     showChevron = false,
+    showDifficulty = true,    
 }: ExerciseCardProps) {
   return (
     <TouchableOpacity
@@ -73,6 +75,7 @@ export default function ExerciseCard({
                 </View>
 
                 <View className='flex-row items-center justify-between'>
+                    {showDifficulty && (
                     <View 
                         className={`px-3 py-1 rounded-full ${getDifficultyColor(item.difficulty)}`}
                     >
@@ -80,7 +83,7 @@ export default function ExerciseCard({
                             {getDifficultyText(item.difficulty)}
                         </Text>
                     </View>
-
+                    )}
                     {showChevron && (
                         <TouchableOpacity className='p-2'>
                             <Ionicons name='chevron-forward' size={20} color='#6B7280' />

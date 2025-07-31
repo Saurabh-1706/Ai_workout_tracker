@@ -18,6 +18,7 @@ function Layout() {
         }}
       />
 
+      {/*       
       <Tabs.Screen
         name="exercises"
         options={{
@@ -28,7 +29,22 @@ function Layout() {
           ),
         }}
       />
+       */}
 
+      
+      <Tabs.Screen
+        name="Exercise"
+        options={{
+          headerShown: false,
+          title: "Exercise",
+          tabBarIcon: ({ color, size }) => (
+            <AntDesign name="book" size={size} color={color} />
+          ),
+        }}
+      />
+    
+
+      
       <Tabs.Screen
         name="workout"
         options={{

@@ -6,7 +6,7 @@ import { Ionicons } from '@expo/vector-icons';
 import ExerciseCard from './ExerciseCard';
 import { Exercise } from '@/lib/sanity/types';
 import { client } from '@/lib/sanity/client';
-import { exercisesQuery } from '../(app)/(tabs)/exercises';
+import { exercisesQuery } from '../(app)/exercises';
 
 interface ExerciseSelectionModalProps {
   visible: boolean;

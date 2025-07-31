@@ -200,7 +200,7 @@ export default function HomePage() {
             </TouchableOpacity>
 
             <TouchableOpacity
-              onPress={() => router.push("/exercises")}
+              onPress={() => router.push("/Exercise")}
               className="bg-white rounded-2xl p-4 flex-1 shadow-sm border border-gray-100"
               activeOpacity={0.7}
             >

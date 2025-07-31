@@ -73,6 +73,7 @@ export async function POST(request) {
             { status: 400 } 
         );
     }
+    
 
     if (!process.env.GEMINI_API_KEY) {
         console.error("GEMINI_API_KEY environment variable is not set.");
