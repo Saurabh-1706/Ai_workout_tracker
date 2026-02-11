@@ -110,6 +110,7 @@ export default function Exercises() {
               router.push(`/Exercise/exercise-list?id=${item._id}`)
             }
             showDifficulty={false}
+            
           />
         )}
         refreshControl={
