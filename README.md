@@ -2,6 +2,23 @@
 
 A modern, AI-powered workout tracking application built with **React Native**, **Expo**, and **NativeWind**. This app helps you log workouts, track progress with visual statistics, and get personalized exercise guidance using **Google Gemini AI**.
 
+## 🎥 Demo
+
+<!-- 
+    Add your demo video here. 
+    You can:
+    1. Upload a video file to the 'assets' or 'demos' folder and link it: ![Demo Video](assets/demo.mp4)
+    2. Upload to YouTube/Vimeo and use a thumbnail link: [![Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
+    3. Drag and drop a video into the GitHub editor when editing this file to get an automatic link.
+-->
+
+https://github.com/user-attachments/assets/7c303396-8d74-4033-8385-fb601da3cc6d
+
+
+
+> [!TIP]
+> **See the app in action!** Watch the video above to see how AI generates workout plans instantly.
+
 ## 🚀 Features
 
 -   **🏋️ Workout Tracking:** log exercises, sets, reps, and weights easily.
