@@ -18,6 +18,7 @@ import { Exercise } from "@/lib/sanity/types";
 import groq, { defineQuery } from "groq";
 import Markdown from "react-native-markdown-display";
 
+
 const singleExerciseQuery = groq`*[_type == "exercise" && _id == $id] [0]`;
 
 const getDifficultyColor = (difficulty: string) => {
