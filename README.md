@@ -6,9 +6,6 @@ A modern, high-performance, and AI-powered workout tracking mobile application b
 
 ## 📱 Screenshots & Visual Flow
 
-<p align="center">
-  <img src="assets/dashboard.jpg" alt="AI Workout Tracker Dashboard" width="300" />
-</p>
 
 ### 🎥 Demo Video
 
